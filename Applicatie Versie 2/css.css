@@ -71,6 +71,19 @@ button{
 	transform:scaleX(-1);
 	filter:FlipH;
 }
+
+/* Arrow buttons */
+
+#right{
+ 	height: 10vh;
+	width: 10vw;
+}
+
+#left{
+	height: 10vh;
+	width: 10vw;
+}
+
 /* page 1 */
 
 #start{
