@@ -17,7 +17,7 @@ html{
 	background-color: white;
 }
 
-/* Pages */
+/* Pages General*/
 section{
 	position: fixed;
 	top:0;
@@ -25,3 +25,124 @@ section{
 	height: 100vh;
 	width: 100vw;
 }
+
+.hide{
+	display:none;
+}
+.show{
+	display:block;
+}
+
+h1{
+	font-family: BebasNeue;
+	font-size: 10vmin;
+	text-align: center;
+	margin-top: 15vh;
+	margin-left: 11vw;
+	margin-right: 11vw;
+	color: black;
+	-moz-transform:scaleX(-1);
+	-o-transform:scaleX(-1);
+	-webkit-transform:scaleX(-1);
+	transform:scaleX(-1);
+	filter:FlipH;
+	display: block;
+	z-index: 0;
+	position: absolute;
+}
+
+button{
+	display: block;
+	background-repeat: no-repeat;
+	background-position: center; 
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background-color: rgb(148,205,182);
+	height: 10vh;
+	width: 30vw;
+	float: left;
+	font-family: BebasNeue;
+	font-size: 8vmin;
+	color: white;
+	-moz-transform:scaleX(-1);
+	-o-transform:scaleX(-1);
+	-webkit-transform:scaleX(-1);
+	transform:scaleX(-1);
+	filter:FlipH;
+}
+/* page 1 */
+
+#start{
+	position: fixed;
+	margin-top: 45vh;
+	width: 60vw;
+	height: 10vh;
+	margin-left: 25vw;
+}
+
+/* page 3 */
+
+#answerGeld{
+	position: fixed;
+	margin-top: 45vh;
+	width: 60vw;
+	height: 10vh;
+	margin-left: 20vw;
+}
+
+#answerGezondheid{
+	position: fixed;
+	margin-top: 60vh;
+	width: 60vw;
+	height: 10vh;
+	margin-left: 20vw;
+}
+
+#answerFamilie{
+	position: fixed;
+	margin-top: 75vh;
+	width: 60vw;
+	height: 10vh;
+	margin-left: 20vw;
+}
+
+/* page 4 */
+
+#page4no {
+	margin-top: 60vh;
+	margin-left: 15vw;
+}
+
+#page4yes{
+	margin-top: 60vh;
+	margin-left: 10vw;
+	margin-right: 15vw;
+}
+
+/* page 5 */
+
+#answerOnvoldoende{
+	position: fixed;
+	margin-top: 45vh;
+	width: 60vw;
+	height: 10vh;
+	margin-left: 20vw;
+}
+
+#answerVoldoende{
+	position: fixed;
+	margin-top: 60vh;
+	width: 60vw;
+	height: 10vh;
+	margin-left: 20vw;
+}
+
+#answerGoed{
+	position: fixed;
+	margin-top: 75vh;
+	width: 60vw;
+	height: 10vh;
+	margin-left: 20vw;
+}
+
