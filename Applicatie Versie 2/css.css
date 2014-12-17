@@ -1,0 +1,27 @@
+@font-face{
+	font-family: BebasNeue;
+	src: url(fonts/BebasNeue.otf);
+}
+
+@media screen and (max-width: 1080px;) {
+}
+
+/* General */
+*{
+	margin: 0;
+	border-style: none;
+	border-width: 0;
+	padding: 0;
+}
+html{
+	background-color: white;
+}
+
+/* Pages */
+section{
+	position: fixed;
+	top:0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+}
