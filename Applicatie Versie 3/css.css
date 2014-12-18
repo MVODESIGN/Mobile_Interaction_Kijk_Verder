@@ -3,6 +3,11 @@
 	src: url(fonts/BebasNeue.otf);
 }
 
+@font-face{
+	font-family: Roboto-Thin;
+	src: url(fonts/Roboto-Thin.ttf);
+}
+
 @media screen and (max-width: 100%;) {
 }
 
@@ -37,16 +42,31 @@ h1{
 	font-family: BebasNeue;
 	font-size: 10vmin;
 	text-align: center;
-	margin-top: 12vh;
+	margin-top: 10vh;
 	width: 86vw;
 	margin-right: 7vw;
 	margin-left: 7vw;
-	color: black;
+	color: white;
 	-moz-transform:scaleX(-1);
 	-o-transform:scaleX(-1);
 	-webkit-transform:scaleX(-1);
 	transform:scaleX(-1);
 	filter:FlipH;
+	display: block;
+	z-index: 0;
+	position: absolute;
+}
+
+h2{
+	font-family: Roboto-Thin;
+	text-transform: uppercase;
+	font-size: 3.5vmin;
+	text-align: center;
+	margin-top: 56vh;
+	width: 60vw;
+	margin-right: 20vw;
+	margin-left: 20vw;
+	color: white;
 	display: block;
 	z-index: 0;
 	position: absolute;
@@ -61,7 +81,7 @@ button{
 	-webkit-box-sizing: border-box;
 	background-color: rgb(148,205,182);
 	height: 10vh;
-	width: 30vw;
+	width: 25vw;
 	float: left;
 	font-family: BebasNeue;
 	font-size: 8vmin;
@@ -76,20 +96,20 @@ button{
 /* Arrow buttons */
 
 nav#arrows{
-	margin-top: 83vh;
+	margin-top: 88vh;
 }
 
 #arrowLeft img{
-	max-width: 15%;
-	padding-left: 5vw;
+	max-width: 10%;
+	padding-left: 20vw;
 	height: auto;
 	display: inline;
 	float:left;
 }
 
 #arrowRight img{
-	max-width: 15%;
-	padding-left: 60vw;
+	max-width: 10%;
+	padding-left: 40vw;
 	height: auto;
 	display: inline;
 	float:left;
@@ -117,7 +137,7 @@ nav#arrows{
 
 #answerGezondheid{
 	position: fixed;
-	margin-top: 60vh;
+	margin-top: 58vh;
 	width: 60vw;
 	height: 10vh;
 	margin-left: 20vw;
@@ -125,7 +145,7 @@ nav#arrows{
 
 #answerFamilie{
 	position: fixed;
-	margin-top: 75vh;
+	margin-top: 71vh;
 	width: 60vw;
 	height: 10vh;
 	margin-left: 20vw;
@@ -135,13 +155,13 @@ nav#arrows{
 
 #page4no {
 	margin-top: 60vh;
-	margin-left: 15vw;
+	margin-left: 20vw;
 }
 
 #page4yes{
 	margin-top: 60vh;
 	margin-left: 10vw;
-	margin-right: 15vw;
+	margin-right: 20vw;
 }
 
 /* page 5 */
@@ -156,7 +176,7 @@ nav#arrows{
 
 #answerVoldoende{
 	position: fixed;
-	margin-top: 60vh;
+	margin-top: 58vh;
 	width: 60vw;
 	height: 10vh;
 	margin-left: 20vw;
@@ -164,7 +184,7 @@ nav#arrows{
 
 #answerGoed{
 	position: fixed;
-	margin-top: 75vh;
+	margin-top: 71vh;
 	width: 60vw;
 	height: 10vh;
 	margin-left: 20vw;
@@ -176,19 +196,21 @@ nav#arrows{
 
 #page9no {
 	margin-top: 60vh;
-	margin-left: 15vw;
+	margin-left: 20vw;
 }
 
 #page9yes{
 	margin-top: 60vh;
 	margin-left: 10vw;
-	margin-right: 15vw;
+	margin-right: 20vw;
 }
 
 /* page 10 */
 
 #answerVerdienste{
 	position: fixed;
+	padding-left:2vw; 
+	padding-right:2vw;
 	font-size: 6vmin;
 	margin-top: 40vh;
 	width: 60vw;
@@ -198,8 +220,10 @@ nav#arrows{
 
 #answerGelukkig{
 	position: fixed;
+	padding-left:2vw; 
+	padding-right:2vw;
 	font-size: 6vmin;
-	margin-top: 65vh;
+	margin-top: 60vh;
 	width: 60vw;
 	height: 17vh;
 	margin-left: 20vw;
@@ -211,26 +235,26 @@ nav#arrows{
 
 #page14no {
 	margin-top: 60vh;
-	margin-left: 15vw;
+	margin-left: 20vw;
 }
 
 #page14yes{
 	margin-top: 60vh;
 	margin-left: 10vw;
-	margin-right: 15vw;
+	margin-right: 20vw;
 }
 
 /* page 15 */
 
 #page15no {
 	margin-top: 60vh;
-	margin-left: 15vw;
+	margin-left: 20vw;
 }
 
 #page15yes{
 	margin-top: 60vh;
 	margin-left: 10vw;
-	margin-right: 15vw;
+	margin-right: 20vw;
 }
 
 /* page 16 (opmaak van afbeelding percentage) */
