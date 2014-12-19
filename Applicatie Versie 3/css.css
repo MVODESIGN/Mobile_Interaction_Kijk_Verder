@@ -37,6 +37,9 @@ section{
 .show{
 	display:block;
 }
+.down{
+	background-color: #bae2d9;
+}
 
 h1{
 	font-family: BebasNeue;
@@ -118,6 +121,24 @@ nav#arrows{
 /* page 1 */
 
 #start{
+	display: block;
+	background-repeat: no-repeat;
+	background-position: center; 
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background-color: rgb(148,205,182);
+	height: 10vh;
+	width: 25vw;
+	float: left;
+	font-family: BebasNeue;
+	font-size: 8vmin;
+	color: white;
+	-moz-transform:scaleX(-1);
+	-o-transform:scaleX(-1);
+	-webkit-transform:scaleX(-1);
+	transform:scaleX(-1);
+	filter:FlipH;
 	position: fixed;
 	margin-top: 60vh;
 	width: 60vw;
